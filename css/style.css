@@ -48,8 +48,13 @@
   z-index: 6;
 }
 
+
 .section {
   padding: 100px 0;
+}
+
+.col-md-7 > p {
+  font-size: 25px;
 }
 .aboutImage {
   max-width: 100%;
