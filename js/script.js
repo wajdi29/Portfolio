@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 
 
-    const skillsTopOffset = $(".skillsSection").offset().top;
+    // const skillsTopOffset = $(".skillsSection").offset().top;
     const statsTopOffset = $(".statsSection").offset().top;
     let countUpFinish = false
 
