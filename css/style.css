@@ -57,7 +57,7 @@
   font-size: 25px;
 }
 .aboutImage {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .skillsSection,
@@ -356,3 +356,39 @@
     font-size: 1.5rem;
   }
 }
+
+
+
+.technologies__title {
+  margin: 2rem;
+  color: #e74c3c;
+  text-align: center;
+  font-size: 5rem; }
+
+.technologies__logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5rem 0; }
+
+.technologies__img {
+  height: 80px;
+  margin: 1rem 3rem; }
+  @media (max-width: 1024px) {
+    .technologies__img {
+      height: 50px; } }
+
+@media (max-width: 768px) {
+  .technologies__title {
+    font-size: 3rem; }
+  .technologies__logos {
+    margin: 3rem 0; }
+  .technologies__img {
+    height: 40px; } }
+
+@media (max-width: 640px) {
+  .technologies__logos {
+    margin: 1rem 0; }
+  .technologies__img {
+    height: 30px;
+    margin: 1rem 2rem; } }
