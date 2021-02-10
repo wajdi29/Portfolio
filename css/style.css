@@ -58,6 +58,8 @@
 }
 .aboutImage {
   max-width: 60%;
+  position: relative;
+  left: 70px;
 
 }
 
@@ -190,9 +192,12 @@
   padding-bottom: 40px;
   width: 100%;
 }
+.items {
+  left: 120px;
+} 
 .items li {
   display: inline-block;
-  padding: 5px;
+  padding: 25px;
 }
 .itemsContainer {
   width: 100%;
